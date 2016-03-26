@@ -1,0 +1,106 @@
+body {
+    font-size: 16px;
+    color: #000000;
+    background-color: #002f20;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+
+#header-nav {
+    background-color: #015f40;
+    border-radius: 0;
+    border: 0;
+    height: 120px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+#home {
+    float: left;
+}
+
+#home a {
+    padding-top: 25px;
+    font-family: 'Lora', serif;
+    color: #000000;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#contact {
+    float: right;
+    text-align: right;
+}
+
+#contact .genericon {
+    font-size: 22px;
+    color: #000;
+}
+
+#contact .nav.navbar-nav a {
+    padding: 5px;
+}
+
+#contact .nav.navbar-nav li:first-child a {
+    padding-left: 0;
+}
+
+#contact .nav.navbar-nav li:last-child a {
+    padding-right: 0;
+}
+
+.cursive {
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.centered-content {
+    text-align: center;
+}
+
+.photo1,
+.photo2 {
+    display: inline-block;
+    position: relative;
+}
+
+.photo1 img,
+.photo2 img {
+    border-radius: 15px;
+}
+
+.imagelink {
+    color: #000;
+    border-radius: 15px;
+    position: absolute;
+    background-color: #fff185;
+    top: 140px;
+    left: 0;
+    padding: 5px 20px;
+}
+
+#welcome {
+    padding-top: 5px;
+}
+
+#about , #links {
+  color: #FFF;
+  padding-left: 60px;
+  }
+  a:link a:hover a:visited{
+    color: white;
+
+  } 
+
+
+
+h4 {
+    padding-top: 30px;
+}
+
+@media (max-width: 799px) {}
